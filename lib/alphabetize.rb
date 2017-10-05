@@ -1,4 +1,4 @@
 def alphabetize(arr)
 
-  arr.sort_by &A.method(:index)
+  arr.sort_by &ESPERANTO_ALPHABET.method(:index)
 end
