@@ -1,3 +1,4 @@
 def alphabetize(arr)
-  # code here
+
+  arr.sort_by &A.method(:index)
 end
